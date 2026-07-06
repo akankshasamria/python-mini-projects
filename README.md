@@ -1,274 +1,149 @@
-# 📊 Python Data Visualization with Matplotlib
+# 📈 Project Outputs
 
-<div align="center">
+## 📌 1. Line Plot & Scatter Plot
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
-![NumPy](https://img.shields.io/badge/NumPy-Library-blue?style=for-the-badge\&logo=numpy)
-![Pandas](https://img.shields.io/badge/Pandas-Library-purple?style=for-the-badge\&logo=pandas)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-green?style=for-the-badge)
+![Line Plot](images/line_scatter_plot.png)
 
-**A beginner-friendly Python project demonstrating various data visualization techniques using Matplotlib, NumPy, Pandas, and Seaborn.**
-
-</div>
+The project demonstrates a customized line plot of the sine function and a scatter plot of the cosine function using NumPy-generated data.
 
 ---
 
-# 📌 Project Overview
+## 📌 2. Multiple Subplots
 
-This project showcases the implementation of some of the most commonly used graphs in Data Science and Machine Learning.
+![Subplots](images/subplots.png)
 
-The project covers:
-
-* 📈 Line Plot
-* ⭐ Scatter Plot
-* 📑 Multiple Subplots
-* 📊 Vertical Bar Chart
-* 📊 Horizontal Bar Chart
-* 📉 Histogram
-* 🥧 Pie Chart
-* 📦 Box Plot
-* 🎻 Violin Plot
-* 📚 Percentage Bar Chart with Labels
+Multiple graphs are displayed in a single figure using Matplotlib's `add_subplot()` function.
 
 ---
 
-# 🛠 Technologies Used
+## 📌 3. Vertical Bar Chart
 
-| Library    | Purpose                   |
-| ---------- | ------------------------- |
-| Python     | Programming Language      |
-| NumPy      | Numerical Computing       |
-| Pandas     | Data Handling             |
-| Matplotlib | Data Visualization        |
-| Seaborn    | Statistical Visualization |
+![Vertical Bar Chart](images/vertical_bar_chart.png)
 
----
+This chart represents students' marks using customized colors.
 
-# 📂 Project Structure
-
-```text
-Python-Data-Visualization/
-│
-├── images/
-│   ├── line_plot.png
-│   ├── scatter_plot.png
-│   ├── subplots.png
-│   ├── bar_chart.png
-│   ├── horizontal_bar.png
-│   ├── histogram.png
-│   ├── pie_chart.png
-│   ├── box_plot.png
-│   ├── violin_plot.png
-│   └── percentage_bar.png
-│
-├── visualization.py
-├── requirements.txt
-└── README.md
-```
+**Features**
+- Custom colors
+- Highlighted highest/selected bar
+- Labels
+- Figure customization
 
 ---
 
-# 📈 Output Graphs
+## 📌 4. Horizontal Bar Chart
 
-## 📌 Line Plot (Sine Wave)
+![Horizontal Bar Chart](images/horizontal_bar_chart.png)
 
-<p align="center">
-<img src="images/line_plot.png" width="850">
-</p>
-
-**Description**
-
-* Generated using NumPy
-* Custom markers
-* Grid
-* Legends
-* Colors
-* Axis Labels
+Horizontal representation of the same marks dataset.
 
 ---
 
-## 📌 Scatter Plot (Cosine Wave)
+## 📌 5. Histogram
 
-<p align="center">
-<img src="images/scatter_plot.png" width="850">
-</p>
+![Histogram](images/histogram.png)
 
-Shows cosine values using scatter markers.
+Shows the distribution of one million randomly generated values from a normal distribution.
 
 ---
 
-## 📌 Multiple Subplots
+## 📌 6. Pie Chart
 
-<p align="center">
-<img src="images/subplots.png" width="850">
-</p>
+![Pie Chart](images/pie_chart.png)
 
-Illustrates how multiple charts can be displayed inside one figure.
+Displays the popularity of different ice cream flavours.
 
 ---
 
-## 📌 Vertical Bar Chart
+## 📌 7. Box Plot
 
-<p align="center">
-<img src="images/bar_chart.png" width="700">
-</p>
+![Box Plot](images/box_plot.png)
 
-Displays marks obtained by students.
+Illustrates:
 
----
-
-## 📌 Horizontal Bar Chart
-
-<p align="center">
-<img src="images/horizontal_bar.png" width="700">
-</p>
-
-Shows the same dataset using horizontal bars.
+- Median
+- Quartiles
+- Outliers
+- Spread of data
 
 ---
 
-## 📌 Histogram
+## 📌 8. Violin Plot
 
-<p align="center">
-<img src="images/histogram.png" width="700">
-</p>
+![Violin Plot](images/violin_plot.png)
 
-Represents the distribution of randomly generated normal data.
+Shows the probability density and distribution of the generated dataset.
 
 ---
 
-## 📌 Pie Chart
+## 📌 9. Subject-wise Percentage Chart
 
-<p align="center">
-<img src="images/pie_chart.png" width="600">
-</p>
+![Percentage Chart](images/percentage_chart.png)
 
-Illustrates the popularity of different ice cream flavours.
+Displays students' subject-wise percentages with percentage labels above each bar.
 
 ---
 
-## 📌 Box Plot
+# 📚 Libraries Used
 
-<p align="center">
-<img src="images/box_plot.png" width="700">
-</p>
-
-Shows:
-
-* Median
-* Quartiles
-* Outliers
-* Data Spread
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
 
 ---
 
-## 📌 Violin Plot
+# 🚀 Features
 
-<p align="center">
-<img src="images/violin_plot.png" width="700">
-</p>
-
-Displays the probability density and distribution of the dataset.
-
----
-
-## 📌 Subject-wise Percentage Chart
-
-<p align="center">
-<img src="images/percentage_bar.png" width="700">
-</p>
-
-Features:
-
-* Percentage labels
-* Different colors
-* Professional layout
+- Line Plot
+- Scatter Plot
+- Subplots
+- Vertical Bar Chart
+- Horizontal Bar Chart
+- Histogram
+- Pie Chart
+- Box Plot
+- Violin Plot
+- Percentage Bar Chart
+- Custom Colors
+- Legends
+- Grid
+- Markers
+- Data Labels
 
 ---
 
-# 📚 Concepts Covered
-
-* Data Visualization
-* Plot Styling
-* Figure Size
-* Labels & Titles
-* Legends
-* Grid
-* Multiple Figures
-* Subplots
-* Statistical Charts
-* Annotation
-* NumPy Arrays
-* Pandas DataFrames
-
----
-
-# 🚀 Installation
-
-Clone the repository
+# ▶️ Run the Project
 
 ```bash
 git clone https://github.com/your-username/Python-Data-Visualization.git
-```
 
-Move into the project
-
-```bash
 cd Python-Data-Visualization
-```
 
-Install required libraries
-
-```bash
 pip install -r requirements.txt
-```
 
-Run the project
-
-```bash
 python visualization.py
 ```
 
 ---
 
-# 📦 requirements.txt
+# 📷 Sample Output
 
-```text
-numpy
-pandas
-matplotlib
-seaborn
-```
-
----
-
-# 🎯 Learning Outcomes
-
-After completing this project, you will understand how to:
-
-* Create professional graphs using Matplotlib
-* Generate numerical data using NumPy
-* Work with Pandas DataFrames
-* Customize plots
-* Create statistical charts
-* Annotate graphs
-* Use multiple subplots
-* Build visualization projects for Data Science
+| Visualization | Screenshot |
+|--------------|------------|
+| Line Plot | ✅ |
+| Scatter Plot | ✅ |
+| Histogram | ✅ |
+| Pie Chart | ✅ |
+| Box Plot | ✅ |
+| Violin Plot | ✅ |
+| Vertical Bar | ✅ |
+| Horizontal Bar | ✅ |
+| Percentage Bar | ✅ |
 
 ---
 
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Akanksha Samria**
 
-Aspiring AI & Data Science Engineer
-
-* 🌱 Learning Machine Learning & Data Science
-* 💻 Python Developer
-* 📊 Data Visualization Enthusiast
-* 🚀 Open Source Learner
-
----
-
-## ⭐ If you found this project helpful, please consider giving it a Star on GitHub!
+⭐ If you like this project, don't forget to star the repository!
